@@ -1,0 +1,20 @@
+/* Image de fond sur tout le site */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-image: url("/assets/images/font.jpg"); /* ton image */
+  background-size: cover;       /* couvre tout l’écran */
+  background-position: center;  /* centrée */
+  background-repeat: no-repeat; /* pas de répétition */
+  background-attachment: fixed; /* effet fixe au défilement */
+}
+
+/* Encadrer le contenu dans un fond blanc transparent pour lisibilité */
+.main, .container, #main-content {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 1.5rem;
+  border-radius: 8px;
+}
